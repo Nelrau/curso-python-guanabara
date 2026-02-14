@@ -12,3 +12,69 @@ hint:   git branch -m <name>
 hint:
 hint: Disable this message with "git config set advice.defaultBranchName false"
 Initialized empty Git repository in /mnt/backup/python/cursoEmVideo/curso-python-guanabara/.git/
+
+git add .
+git commit -m "Estrutura inicial do curso organizada por modulos"
+[master (root-commit) 65f6681] Estrutura inicial do curso organizada por modulos
+ Committer: uarlen <uarlen@kali.nelrau>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 14 insertions(+)
+ create mode 100644 git.txt
+
+ git branch -m main
+
+ git remote add origin git@github.com:Nelrau/curso-python-guanabara.git
+
+ git push -u origin main
+The authenticity of host 'github.com (4.228.31.150)' can't be established.
+ED25519 key fingerprint is: SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+
+
+ls ~/.ssh - agent  known_hosts
+ssh-keygen -t -C "@hotmail.com"
+
+Enter same passphrase again: 
+Your identification has been saved in /home/uarlen/.ssh/id_
+Your public key has been saved in /home/uarlen/.ssh/id_.pub
+The key fingerprint is:
+SHA256:g0r97zYTAdSG4uZqzLF7sb8Iv6N1QA0BAoTZaN+McIA @hotmail.com
+The key's randomart image is:
++--[ 256]--+
+|=Bo ..oo.o       |
+|Eo.o  .oo o      |
+|. + +....o       |
+|   o =o.  .      |
+|    .o+ S  .     |
+|   ...oo ..      |
+|   oo+.oo  .     |
+|    *++o .+      |
+|   .o+++o+oo     |
++----[SHA256]-----+
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINgCOBd8JIdccB7wa5oL4aLeL76BFMwTIX9MmY3DQk27 @hotmail.
+
+ssh -T git@github.com
+
+git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 594 bytes | 594.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:Nelrau/curso-python-guanabara.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
