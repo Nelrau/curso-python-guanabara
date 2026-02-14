@@ -1,1 +1,25 @@
+1950 - Linguagem de baixo nivel
+assembly:
+<cod>section.data
+   n1dd10
+   n2dd20
+   sdd0
+_start:
+   mov eax.[n1]
+   add eax.[n2]
+mov[s].eax</cod>
 
+1955 - Linguagens lineares
+fortran, cobol, c, basic, 
+comando como goto para pular, voltar para linha ja escrita 
+
+1960 - Linguaguens Estruturadas
+criado por Edsgar Wybe Dijkstra algol60
+
+1965 - Linguagens Modulares
+
+1970 - Linguagens Orientada a Objetos
+  Kristen Nygard - simulava coisas no computador com algol60, fez uma nova liguagem "Simula", e aproveitando a viajem a linguagem C se tornou C++.
+  Alan Curtes Kay criou o Dynabook smalltalk
+OOAD - OBJECT ORIENTED ANALYSIS AND DESIGN
+UML - UNIFIED MODELING LANGUAGE
