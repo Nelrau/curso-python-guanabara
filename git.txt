@@ -80,5 +80,4 @@ To github.com:Nelrau/curso-python-guanabara.git
 branch 'main' set up to track 'origin/main'.
 
 git config --global user.name "Uarlen"
-git config --global user.email "@hotmail.com
-"
+git config --global user.email "@hotmail.com"
