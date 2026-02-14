@@ -1,0 +1,12 @@
+- Conceitos
+Setters
+Self e super
+Dunder methods
+Associação
+Agregação
+Composição
+
+- Banco de dados
+Acesso a base locais
+Sqlite3
+Object-RelacionalMapper
