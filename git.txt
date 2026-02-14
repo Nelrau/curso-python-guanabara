@@ -81,3 +81,5 @@ branch 'main' set up to track 'origin/main'.
 
 git config --global user.name "Uarlen"
 git config --global user.email "@hotmail.com"
+
+git pull --no-rebase
