@@ -78,3 +78,7 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 To github.com:Nelrau/curso-python-guanabara.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
+
+git config --global user.name "Uarlen"
+git config --global user.email "@hotmail.com
+"
