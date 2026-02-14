@@ -84,3 +84,4 @@ else:
         print("Resposta incorreta. As palavras corretas são 'Analysis / Design'.")
     else:
         print("Resposta inválida. As palavras corretas são 'Analysis / Design'.")
+print(f'Voce acertou {p} de 5 perguntas.')
